@@ -246,3 +246,47 @@ nav a:hover { color: var(--accent); }
     padding-left: 15px;
     margin-bottom: 30px;
 }
+
+/* Gallery Style Blocks */
+.gallery-block {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.gallery-block.reverse {
+    flex-direction: row-reverse;
+}
+
+.gallery-text {
+    flex: 1;
+}
+
+.gallery-img {
+    flex: 1;
+}
+
+.gallery-img img {
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid var(--card-bg);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* Page Navigation */
+.page-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding-top: 40px;
+    border-top: 1px solid var(--card-bg);
+}
+
+/* Responsive adjustment for gallery */
+@media (max-width: 800px) {
+    .gallery-block, .gallery-block.reverse {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
