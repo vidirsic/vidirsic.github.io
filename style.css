@@ -46,7 +46,7 @@ nav a:hover { color: var(--accent); }
     border-radius: 50%;
     border: 4px solid var(--accent);
     object-fit: cover;
-    object-position: center top;
+    object-position: 50% 20%;
     margin-bottom: 20px;
     margin-top: 40px; 
 }
