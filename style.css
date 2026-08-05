@@ -189,3 +189,60 @@ nav a:hover { color: var(--accent); }
         margin-bottom: 5px;
     }
 }
+
+/* Publication Interactivity */
+.pub-item {
+    transition: background-color 0.3s ease;
+}
+
+.pub-item:hover {
+    background-color: #233549; /* Slightly lighter than card-bg */
+}
+
+.pub-title {
+    text-decoration: none;
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--accent);
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.pub-title:hover {
+    text-decoration: underline;
+    color: var(--accent-hover);
+}
+
+/* Badge and News Styling */
+.badge {
+    background: #f59e0b;
+    color: #0b1622;
+    font-size: 0.65rem;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-left: 8px;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.news-link {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 0.85rem;
+    color: #94a3b8;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.news-link:hover {
+    color: var(--accent);
+    text-decoration: underline;
+}
+
+.section-title {
+    color: var(--text-primary);
+    border-left: 4px solid var(--accent);
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
