@@ -324,19 +324,19 @@ nav a:hover { color: var(--accent); }
 }
 
 /* Style for links without a specific class */
-a {
+a:not([class]) {
     color: #38bdf8; /* A bright, readable sky blue */
     text-decoration: underline;
     transition: color 0.2s;
 }
 
 /* Keeps the link from turning purple after being clicked */
-a:visited {
+a:not([class]):visited {
     color: #38bdf8; 
 }
 
 /* Hover effect for plain links */
-a:hover {
+a:not([class]):hover {
     color: var(--accent-hover);
     text-decoration: none;
 }
