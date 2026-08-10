@@ -322,3 +322,21 @@ nav a:hover { color: var(--accent); }
 		grid-template-columns: 1fr;
 	}
 }
+
+/* Style for links without a specific class */
+a {
+    color: #38bdf8; /* A bright, readable sky blue */
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+/* Keeps the link from turning purple after being clicked */
+a:visited {
+    color: #38bdf8; 
+}
+
+/* Hover effect for plain links */
+a:hover {
+    color: var(--accent-hover);
+    text-decoration: none;
+}
